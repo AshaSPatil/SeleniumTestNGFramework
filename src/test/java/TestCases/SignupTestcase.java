@@ -17,8 +17,8 @@ public class SignupTestcase extends BaseClass {
 	@Test
 
 	public void VerifySignup() throws IOException, InterruptedException {
-
-		LoginPageObject lpo = new LoginPageObject(driver);
+//change is done
+				LoginPageObject lpo = new LoginPageObject(driver);
 		lpo.ClickOnTryforFree().click();
 
 		SignupPageObject spo = new SignupPageObject(driver);
